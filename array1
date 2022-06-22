@@ -1,0 +1,15 @@
+var lista = [];
+var cnt, ele;
+var B=1;
+
+while (B==1){
+    ele=prompt('Añade un elemento');
+    lista.push(ele);
+    cnt=lista.length;
+    if(lista[cnt-1]=='END'){
+        B=0;
+    }
+}
+
+lista.pop();
+console.log(lista)
